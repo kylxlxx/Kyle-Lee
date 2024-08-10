@@ -1,0 +1,137 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    
+    color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav a {
+    margin: 0 130px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav a.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+/* 프로젝트 섹션 */
+#project .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#activity .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.activity-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.activity-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.activity-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+}
+
+section {
+    min-height: 700px; /* 모든 페이지 섹션의 최소 높이를 500px로 설정 */
+}
+.section-title {
+    margin-top: 30px; 
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold; 
+}
+
+/* 섹션 이미지 스타일 */
+/* 섹션 이미지 스타일 */
+.section-image {
+    max-width: 50%; /* 이미지 너비를 전체 콘텐츠의 50%로 설정 */
+    height: auto; /* 이미지 비율을 유지하면서 높이를 자동으로 조정 */
+    display: block; /* 이미지를 블록 요소로 설정 */
+    margin: 0 auto 20px; 
+    border-radius: 30px;
+}
+
+
+
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    height: 300px; /* 일정한 카드 높이 설정 */
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; /* 일정한 이미지 높이 설정 */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 18px;
+    margin-top: auto; /* 제목을 카드 하단에 고정 */
+    margin: 10px 0;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* 푸터 스타일 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 5px 0;
+}
