@@ -5,13 +5,13 @@ body {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0d0c31, #12121c, #03022c, #040242, #0a0a0b);
-    color: gray;
+    background: linear-gradient(135deg, #0d0c31, #12121c, #03022c, #040242, #0a0a0b); /* 어두운 블루 및 그레이 계열의 그라디언트 */
+    color: gray; /* 텍스트 색상: 회색 (#808080) */
 }
 
 header, footer {
-    background: linear-gradient(135deg, #0d0c31, #12121c, #03022c, #040242, #0a0a0b);
-    color: white;
+    background: linear-gradient(135deg, #0d0c31, #12121c, #03022c, #040242, #0a0a0b); /* 어두운 블루 및 그레이 계열의 그라디언트 */
+    color: white; /* 텍스트 색상: 흰색 (#FFFFFF) */
     padding: 10px 0;
     text-align: center;
     position: sticky;
@@ -22,11 +22,11 @@ header, footer {
 header nav a, footer a {
     margin: 0 15px;
     text-decoration: none;
-    color: white;
+    color: white; /* 링크 색상: 흰색 (#FFFFFF) */
 }
 
 header nav a.active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid white; /* 활성화된 링크 하단의 흰색 (#FFFFFF) 밑줄 */
 }
 
 .section-title {
@@ -44,10 +44,10 @@ header nav a.active {
 }
 
 .project-card, .activity-card {
-    background: #ffd1dc; /* Light pink background color */
-    color: black;
+    background: #ffd1dc; /* 라이트 핑크 (#FFD1DC) 배경 색상 */
+    color: black; /* 텍스트 색상: 검정색 (#000000) */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 색상: 약한 검정색 (#000000) 투명도 10% */
     width: 300px;
     padding: 20px;
     text-align: center;
@@ -57,13 +57,13 @@ header nav a.active {
 
 .project-card img, .activity-card img {
     width: 100%;
-    height: 200px; /* Fixed height for uniform size */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    height: 200px; /* 이미지 고정 높이: 200px */
+    object-fit: cover; /* 이미지가 영역을 채우도록 크기 조정 */
     border-radius: 10px 10px 0 0;
 }
 
 .project-card:hover, .activity-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* 호버 시 카드가 위로 이동 */
 }
 
 .modal {
@@ -75,22 +75,22 @@ header nav a.active {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* 배경 색상: 검정색 (#000000) 투명도 50% */
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #fefefe; /* 모달 내용 배경 색상: 흰색 (#FEFEFE) */
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #888; /* 경계선 색상: 연한 회색 (#888888) */
     width: 80%;
     max-width: 700px;
     border-radius: 10px;
-    text-align: center; /* Center text for better readability */
+    text-align: center; /* 텍스트 중앙 정렬 */
 }
 
 .close {
-    color: #aaa;
+    color: #aaa; /* 닫기 버튼 색상: 연한 회색 (#AAAAAA) */
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -98,7 +98,7 @@ header nav a.active {
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: black; /* 호버 및 포커스 시 닫기 버튼 색상: 검정색 (#000000) */
     text-decoration: none;
     cursor: pointer;
 }
@@ -114,6 +114,6 @@ footer p {
 #end-message {
     font-size: 24px;
     font-weight: bold;
-    color: red;
+    color: red; /* 텍스트 색상: 빨간색 (#FF0000) */
     margin-top: 20px;
 }
